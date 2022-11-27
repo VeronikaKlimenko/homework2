@@ -14,6 +14,7 @@ int main()
   kv_p = 4*a;
   cout << "S kvadrata =" << kv_s << endl;
   cout << "P kvadrata =" << kv_p << endl;
+  
   system ("pause>>void");
   return 0;
 }

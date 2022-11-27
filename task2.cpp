@@ -7,7 +7,8 @@ struct point
     float length (point pt) { return sqrt(pow(pt.x-x,2)+pow(pt.y-y,2)); };
 };
 int main ()
-{setlocale(0,".1251");
+{
+    setlocale(0,".1251");
     point A = {0,0};
     point B = {11,10};
     point C = {-11,12};
@@ -25,8 +26,6 @@ int main ()
     cout<<"h z vershunu a "<<h <<endl;
     float bis= (2*sqrt(bc*ca*p*(p-ab)))/(bc+ca);
     cout<<"w z vershunu c "<<bis <<endl;
-    
-
     system ("pause>>void");
     return 0;
 

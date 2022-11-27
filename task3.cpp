@@ -12,6 +12,7 @@ int main ()
     std::cout<<"z1= "<< z1 << std::endl;
     float z2= (1-tan(x*a_grad))/(1+tan(x*a_grad));
     std::cout<<"z2= "<< z2 << std::endl;
+    
     system ("pause>>void");
     return 0;
 
